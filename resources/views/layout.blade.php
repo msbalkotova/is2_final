@@ -5,7 +5,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<title>Employee project</title>
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="/css/datatables.min.css">
 	@yield('styles')
 </head>
 <body>
@@ -28,7 +28,7 @@
 	<script src="/js/jquery.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/chart.bundle.min.js"></script>
-	<script src="http://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script src="/js/datatables.min.js"></script>
 	@yield('scripts')
 </body>
 </html>
